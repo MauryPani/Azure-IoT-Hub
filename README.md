@@ -259,7 +259,7 @@ az webapp config set -n ("Nombre que le diste") -g ("El nombre del grupo de recu
 
 ![](Pictures/Picture26.png)
 
-- Una vez que este dirigete al centro de implementación de tu app service. Ve a credenciales GIT/FTPS y escribe un usuario y una contraseña. Al finalizar guárdalo.
+- Una vez que este termine dirígete al centro de implementación de tu app service. Ve a credenciales GIT/FTPS y escribe un usuario y una contraseña. Al finalizar guárdalo.
 
 ![](Pictures/Picture27.png)
 
@@ -290,23 +290,25 @@ git push webapp ("la rama que te arrojo el branch")
 
 Empezara a crear el programa, mientras tanto nosotros agregaremos las variables de entorno.
 
-3. Te dirigiras a configuración y después a nueva configuración de la aplicación.
+3. Vuelve a tu recurso de Azure y te dirigiras a configuración y después a nueva configuración de la aplicación.
 
 Copea en el orden que se muestra en la imagen.
 
 ![](Pictures/Picture32.png)
 
-    - **Nota**:Anteriormente te mostré como obtener estas variables de entorno.
+**Nota:** Anteriormente te mostré como obtener estas variables de entorno.
 
 Añade la otra y guardarlas.
 
 ![](Pictures/Picture33.png)
 
-- Si en el VSCode te aparece esto es que ya esta funcionando.
+- Regresa a VSCode, si te aparece esto en la terminal es que ya esta funcionando.
 
 ![](Pictures/Picture34.png)
 
 4. Ahora solo dirígete a la URL y listo, podrás visualizar la gráfica.
+
+Nota: Corre el simulador si uún no lo haz echo.
 
 ![](Pictures/Picture35.png)
 
